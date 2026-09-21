@@ -1,0 +1,46 @@
+# Dependencies / 專案套件資料夾
+node_modules/
+.pnpm-store/
+
+# Production build / 自動生成資料夾
+dist/
+dist-ssr/
+build/
+
+# Logs / log紀錄日誌
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables / 儲存敏感資料檔
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# System / 系統暫存檔
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE & Editor / 開發工具暫存
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Playwright / 測試暫存與截圖
+test-results/
+playwright-report/
+blob-report/
+*.png
+*.mjs
